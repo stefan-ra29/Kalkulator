@@ -10,10 +10,18 @@ public class Main {
 		scanner = new Scanner(System.in);
 		String s;
 		do {
+			
 			s = scanner.nextLine();
+			
 			if(s.equals("")) {
 				continue;
 			}
+			
+			String[] parts = s.split(" ");
+			
+			if(parts.length != 3 )
+				continue;
+			
 		} while(!s.equals("kraj"));
 		
 	}
