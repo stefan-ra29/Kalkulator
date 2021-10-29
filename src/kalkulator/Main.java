@@ -39,6 +39,10 @@ public class Main {
 			{
 				substraction(x,y);
 			}
+			if(parts[1].equals("*"))
+			{
+				//TODO
+			}
 			
 		} while(!s.equals("kraj"));
 		
