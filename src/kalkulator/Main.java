@@ -35,12 +35,23 @@ public class Main {
 				addition(x,y);
 			}
 			
+			if(parts[1].equals("-"))
+			{
+				substraction(x,y);
+			}
+			
 		} while(!s.equals("kraj"));
 		
 	}
 	
+
 	public static void addition(int x, int y) {
 		System.out.println(x+y);
+	}
+	
+	public static void substraction(int x, int y) {
+		System.out.println(x-y);
+
 	}
 
 }
