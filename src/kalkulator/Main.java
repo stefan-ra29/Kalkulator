@@ -32,11 +32,15 @@ public class Main {
 			
 			if(parts[1].equals("+"))
 			{
-				System.out.println(x+y);
+				addition(x,y);
 			}
 			
 		} while(!s.equals("kraj"));
 		
+	}
+	
+	public static void addition(int x, int y) {
+		System.out.println(x+y);
 	}
 
 }
