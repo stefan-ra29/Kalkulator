@@ -41,11 +41,6 @@ public class Main {
 			}
 			if(parts[1].equals("*"))
 			{
-				//TODO
-			}
-			
-			if(parts[1].equals("*"))
-			{
 				multiplication(x,y);
 			}
 			
