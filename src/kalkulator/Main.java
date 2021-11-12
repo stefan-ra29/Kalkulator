@@ -23,7 +23,7 @@ public class Main {
 			{
 				if(s.equals("kraj"))
 					continue;
-				System.out.println("Pogresan format naredbe");
+				System.out.println("Pogresan format naredbe!!");
 				continue;
 			}
 				
